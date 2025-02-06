@@ -5,4 +5,6 @@ DeciderBot is a low-level bot that helps you decide between your desired amount 
 
 Support me on ko-fi for future development (optional, no pressure): https://ko-fi.com/johnfiore
 
+If there are any bugs worth noting or suggestions you have, reach out to me ![via email](mailto:johnfioregames@gmail.com).
+
 ![app_photo](https://github.com/john-fiore/DeciderBot/blob/main/rm_photo.png?raw=true)
