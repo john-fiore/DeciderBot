@@ -8,6 +8,7 @@
 import random as ran
 from colorama import Fore
 import os
+from os import system
 import sys
 import resrc.api as db
 
@@ -18,6 +19,8 @@ cprfx = ["How about", "I'll choose", "Why not", "Go with", "Try", "The final cho
 prfx_probabilities = [1, 1, 1, 1, 1, 1, 0.1] # 10% chance of getting Jeopardy easter egg
 
 GH_LINK = 'https://github.com/john-fiore/DeciderBot'
+
+system("title " + "DeciderBot - by John Fiore")
 
 def no_cs_inp(prompt): # CS = Case Sensitivity
     return input(prompt).lower()
