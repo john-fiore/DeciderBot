@@ -1,4 +1,4 @@
-# creation API for DeciderBot
+# DeciderBot
 # ----------------------------
 # Creator     : John Fiore
 # Updated     : 02/05/2025
@@ -69,7 +69,11 @@ def prompt():
         prompt()
 
 def settings():
-    pass
+    print()
+    print("Coming Soon!")
+    input("Press any key.")
+    clr()
+    main()
 
 def github():
     db.goToLink(GH_LINK)
